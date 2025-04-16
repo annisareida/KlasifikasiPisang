@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 # Judul
-st.title("🍌 Klasifikasi Pisang Matang vs Busuk")
+st.title("🍌 Klasifikasi Pisang Segar vs Busuk")
 
 # Load model dari lokal
 model = load_model("banana_asli.h5")  # Ganti dengan path lokal model kamu
@@ -26,7 +26,7 @@ if uploaded_file is not None:
 
     # Prediksi
     preds = model.predict(x)
-    label = "🍌 Fresh Banana (Matang)" if preds[0][0] < 0.5 else "🤢 Rotten Banana (Busuk)"
+    label = "🍌 Fresh Banana (Segar)" if preds[0][0] < 0.5 else "🤢 Rotten Banana (Busuk)"
     confidence = (1 - preds[0][0]) if preds[0][0] < 0.5 else preds[0][0]
 
     # Tampilkan hasil
