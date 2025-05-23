@@ -47,19 +47,19 @@ Intuitive web interface for easy use
 ## **🧪 How to Train the Model**
 To train the model on your own:
 
-Download the dataset from the Kaggle link above.
+- Download the dataset from the Kaggle link above.
 
-Extract and organize the banana images into two folders: ripe/ and unripe/.
+- Extract and organize the banana images into two folders: ripe/ and unripe/.
 
-Open the .ipynb file in this repository using Google Colab or Jupyter Notebook.
+- Open the .ipynb file in this repository using Google Colab or Jupyter Notebook.
 
-Run the notebook to:
+- Run the notebook to:
 
  - Preprocess the images
 
  - Define and train a CNN
 
- -Evaluate and save the model (.h5 file)
+ - Evaluate and save the model (.h5 file)
 
 ## **👨‍💻 Team**
 This project was developed by students of the **Computer Engineering Department, Universitas Sriwijaya,** as part of a **final project for the Computer Vision course.**
