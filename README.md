@@ -55,11 +55,11 @@ Open the .ipynb file in this repository using Google Colab or Jupyter Notebook.
 
 Run the notebook to:
 
-Preprocess the images
+ - Preprocess the images
 
-Define and train a CNN
+ - Define and train a CNN
 
-Evaluate and save the model (.h5 file)
+ -Evaluate and save the model (.h5 file)
 
 ## **👨‍💻 Team**
 This project was developed by students of the **Computer Engineering Department, Universitas Sriwijaya,** as part of a **final project for the Computer Vision course.**
