@@ -26,6 +26,7 @@ The model was trained on a dataset containing images of ripe and unripe bananas 
 
 ## **📂 Dataset**
 We used a subset of the **Fruits Fresh and Rotten for Classification** dataset from Kaggle, focusing only on the banana class for ripeness detection.
+
 **📦 Dataset Source:**
 🔗 https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification
 The dataset contains labeled images of fresh and rotten bananas, which we mapped to:
@@ -55,11 +56,11 @@ To train the model on your own:
 
 - Run the notebook to:
 
- - Preprocess the images
+  - Preprocess the images
 
- - Define and train a CNN
+  - Define and train a CNN
 
- - Evaluate and save the model (.h5 file)
+  - Evaluate and save the model (.h5 file)
 
 ## **👨‍💻 Team**
 This project was developed by students of the **Computer Engineering Department, Universitas Sriwijaya,** as part of a **final project for the Computer Vision course.**
