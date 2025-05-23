@@ -12,9 +12,13 @@ The model was trained on a dataset containing images of ripe and unripe bananas 
 
 ## **🛠️ Technologies Used**
 **Python**
+
 **TensorFlow / Keras**
+
 **Streamlit** (for the web app)
+
 **OpenCV** (for image preprocessing)
+
 **Google Colab / Jupyter Notebook**
 
 ## **📂 Dataset**
