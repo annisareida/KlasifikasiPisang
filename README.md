@@ -1,4 +1,4 @@
-*🍌 Banana Ripeness Classification Using CNN *
+#**🍌 Banana Ripeness Classification Using CNN**
 This project is a banana ripeness classification system developed using a Convolutional Neural Network (CNN). It classifies banana images into two categories:
 Ripe
 Unripe
